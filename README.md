@@ -2,25 +2,25 @@
 
 A new Flutter application.
 
-#Dart & Flutter SDK
+# Dart & Flutter SDK
 Dart : 2.8.4
 Flutter : 1.17.5
 
-## About the api_call.dart
+## About the api_call.dart class
 I used to break down services into three packages/classes for each.
-one for endpoints - listing all endpoints. one for api - handling the http call of a certain api. 
-one for repository - handling the api call in a simpler way to be used on bloc
+One for endpoints: listing all endpoints. One for API: handling the http call of a certain API. 
+One for repository: handling the API call in a simpler way to be used on the state management.
 
-and for the http call or to store headers, i used to put it on a separated class, i.e. http_helper.dart.
-and put the url base on a different class as well, i.e. url_base.dart
-so that it will be easier if we need to manage the data.
+And for the http call or to store headers, I used to put it on a separated class, i.e. http_helper.dart.
+And put the url base on a different class as well, i.e. url_base.dart, so that it will be easier if we need to manage the data.
 
-because this is a simple app, i want to keep it simple, so i put it on one class instead to break it down.
-i think for this case study, this approach, will be easier to manage.
+Because this is a simple app, I want to keep it as simple as possible,
+so I put all services in one class. I think for this case study, this approach, will be much easier to manage.
 
-ps : sometimes i takes seconds to load based on the internet speed.
-I print the response to see if it is successful or not.
-Please reach me out, if you have any questions or considerations.
+PS : sometimes it takes seconds to load based on the internet speed.
+I print the response to see if the API Request is successful or not.
+If you have any questions or considerations, please reach me out.
 
-Thankyou 
--- Vhe --
+Thank you! 
+
+-victoriavhe
